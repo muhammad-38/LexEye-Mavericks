@@ -19,15 +19,15 @@ function App() {
 
   return (
     <>
-      <header class="w-full">
+      {/* <header class="w-full">
       <nav>
-        <a href="index.html">
+        <a href="">
           <img src={Logo} alt="Logo" class="logo" />
         </a>
 
         <a href="login.html" id="goback-btn">Get Started</a>
       </nav>
-    </header>
+    </header> */}
 
     <div id="smooth-wrapper">
       {/* <!-- required for ScrollSmoother --> */}
@@ -35,7 +35,7 @@ function App() {
         <div id="main" class="w-full">
           <img src={Balance} alt="" srcset="" id="headphone" />
 
-          <div id="section1">
+          {/* <div id="section1">
             <div>
               <h1 class="heading">LexEye</h1>
               <p>
@@ -43,9 +43,9 @@ function App() {
                 offline
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div id="section2">
+          {/* <div id="section2">
             <div class="content-wrapper">
               <h2 class="heading">Balance Forge</h2>
               <p>
@@ -75,9 +75,9 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!-- middle section --> */}
-          <div class="middlesection" id="middle-section">
+          {/* <div class="middlesection" id="middle-section">
             <div class="move">
               <div class="track">
                 <div class="marque">
@@ -172,9 +172,9 @@ function App() {
                 importance of law and the people who depend on it.
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div id="section3">
+          {/* <div id="section3">
             <h2 class="heading">LexSource</h2>
             <div class="content-wrapper">
               <video
@@ -202,9 +202,9 @@ function App() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div id="section4">
+          {/* <div id="section4">
             <img
               src={Protest}
               alt=""
@@ -223,9 +223,9 @@ function App() {
               srcset=""
               class="img3 radius"
             />
-          </div>
+          </div> */}
 
-          <div id="section5">
+          {/* <div id="section5">
             <h2 class="heading">Top Categories</h2>
             <div class="product-section">
               <div class="product">
@@ -245,11 +245,11 @@ function App() {
                 </div>
               </div>
             </div>
-            <button><a href="./categories.html">Go To Categories</a></button>
-          </div>
+            <button><a href="./pages/Categories.jsx">Go To Categories</a></button>
+          </div> */}
         </div>
 
-        <div id="section6" class="w-full">
+        {/* <div id="section6" class="w-full">
           <img src={Image} class="radius" alt="" srcset="" />
           <div class="content-wrapper">
             <h2 class="heading">Pure Escape</h2>
@@ -264,9 +264,9 @@ function App() {
               you feel the moment.
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <footer class="w-full">
+        {/* <footer class="w-full">
           <a href="index.html">
             <img src={Logo} alt="Logo" class="logo" />
           </a>
@@ -274,7 +274,7 @@ function App() {
             <a href=""><img src={Insta} alt=""></img></a>
             <a href=""><img src={Facebook} alt=""></img></a>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </div>
     </>
