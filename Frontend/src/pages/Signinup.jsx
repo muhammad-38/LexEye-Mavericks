@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/Actual-Logo.png"; // adjust path if needed
+import { Link } from "react-router-dom";
 
 
 const Signinup = () => {
@@ -11,7 +12,7 @@ const Signinup = () => {
             <a href="index.html">
               <img src={Logo} alt="Logo" className="logo" />
             </a>
-            <a href="index.html" id="goback-btn">Go Back</a>
+            <Link id="goback-btn" to='/'>Go Back</Link>
           </nav>
         </header>
 

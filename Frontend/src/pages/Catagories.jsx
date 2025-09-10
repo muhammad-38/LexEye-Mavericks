@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Catagories = () => {
   return (
@@ -7,7 +8,7 @@ const Catagories = () => {
         <div id="traffic-heading">
           <a href="./index.html"><img src="./images/Actual-Logo.png" alt="" class="logo" /></a>
             <h1>Categories</h1>
-            <a id="goback-btn" href="./index.html">Go Back</a>
+            <Link id="goback-btn" to='/'>Go Back</Link>
         </div>
         <div>
             <input type="text" placeholder="Search for categories..." id="search-bar"/>

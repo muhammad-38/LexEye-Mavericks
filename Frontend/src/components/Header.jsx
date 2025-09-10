@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/Actual-Logo.png";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
@@ -8,9 +9,7 @@ const Header = () => {
           <a href="">
             <img src={Logo} alt="Logo" className="logo" />
           </a>
-          <a href="..pages/signinup.jsx" id="goback-btn">
-            Get Started
-          </a>
+          <Link id="goback-btn" to='/signinup'>Get Started</Link>
         </nav>
       </header>
     </>

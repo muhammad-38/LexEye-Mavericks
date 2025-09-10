@@ -2,6 +2,7 @@ import React from "react";
 import Protest from "../assets/Protest.jpg";
 import Traffic from "../assets/Traffic-Police.jpg";
 import Crime from "../assets/Crime.jpg";
+import { Link } from "react-router-dom";
 const Section5 = () => {
   return (
     <>
@@ -28,7 +29,7 @@ const Section5 = () => {
           </div>
         </div>
         <button>
-          <a href="./pages/Categories.jsx">Go To Categories</a>
+          <Link to='/categories'>Categories</Link>
         </button>
       </div>
     </>
