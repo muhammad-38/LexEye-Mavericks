@@ -8,7 +8,7 @@ const Header = () => {
           <a href="">
             <img src={Logo} alt="Logo" className="logo" />
           </a>
-          <a href=".pages/signinup.jsx" id="goback-btn">
+          <a href="..pages/signinup.jsx" id="goback-btn">
             Get Started
           </a>
         </nav>
