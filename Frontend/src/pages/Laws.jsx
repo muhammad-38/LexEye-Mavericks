@@ -7,9 +7,9 @@ const Laws = () => {
     <>
       <div id="traffic">
         <div id="traffic-heading">
-          <a href="./index.html">
+          <Link to='/'>
             <img src={Logo} alt="Logo" className="logo" />
-          </a>
+          </Link>
           <h1>Traffic</h1>
           <Link id="goback-btn" to='/categories'>Categories</Link>
         </div>

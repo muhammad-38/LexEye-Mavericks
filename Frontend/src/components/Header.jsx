@@ -6,9 +6,9 @@ const Header = () => {
     <>
       <header className="w-full">
         <nav>
-          <a href="">
+          <Link to='/'>
             <img src={Logo} alt="Logo" className="logo" />
-          </a>
+          </Link>
           <Link id="goback-btn" to='/signinup'>Get Started</Link>
         </nav>
       </header>

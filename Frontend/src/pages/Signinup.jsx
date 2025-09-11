@@ -9,9 +9,9 @@ const Signinup = () => {
       <div id="container">
         <header className="w-full">
           <nav>
-            <a href="index.html">
+            <Link to='/'>
               <img src={Logo} alt="Logo" className="logo" />
-            </a>
+            </Link>
             <Link id="goback-btn" to='/'>Go Back</Link>
           </nav>
         </header>

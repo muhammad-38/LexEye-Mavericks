@@ -19,9 +19,9 @@ const Catagories = () => {
     <>
       <div id="traffic">
         <div id="traffic-heading">
-          <a href="./index.html">
+          <Link to='/'>
             <img src={Logo} alt="Logo" className="logo" />
-          </a>
+          </Link>
           <h1>Categories</h1>
           <Link id="goback-btn" to='/'>Go Back</Link>
         </div>
