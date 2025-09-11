@@ -32,10 +32,10 @@ const Catagories = () => {
 
         <div id="traffic-content">
           <div className="categories">
-            <a href="./traffic.html">
+            <Link to='/laws'>
               <img src={TrafficPolice} alt="Traffic Police" />
               <div className="categories-name"><h3>TRAFFIC LAWS</h3></div>
-            </a>
+            </Link>
           </div>
 
           <div className="categories">

@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/Actual-Logo.png";
+import { Link } from "react-router";
 
 const Laws = () => {
   return (
@@ -10,9 +11,7 @@ const Laws = () => {
             <img src={Logo} alt="Logo" className="logo" />
           </a>
           <h1>Traffic</h1>
-          <a id="goback-btn" href="./categories.html">
-            Categories
-          </a>
+          <Link id="goback-btn" to='/categories'>Categories</Link>
         </div>
 
         <div>
