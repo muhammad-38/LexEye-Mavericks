@@ -1,4 +1,3 @@
-// import { Routes, Route } from "react-router-dom";
 import React from "react";
 import Balance from "../assets/logo.png";
 import Header from "../components/Header";
@@ -10,10 +9,12 @@ import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
 import Footer from "../components/Footer";
-
-
+import useLandingAnimations from "../Hooks/useLandingAnimations"; // 👈 import the GSAP hook
 
 function Home() {
+  // 👇 run all your GSAP animations when this page loads
+  useLandingAnimations();
+
   return (
     <>
       <Header />

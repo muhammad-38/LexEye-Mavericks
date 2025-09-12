@@ -7,19 +7,17 @@ const Laws = () => {
     <>
       <div id="traffic">
         <div id="traffic-heading">
-          <Link to='/'>
+          <Link to="/">
             <img src={Logo} alt="Logo" className="logo" />
           </Link>
           <h1>Traffic</h1>
-          <Link id="goback-btn" to='/categories'>Categories</Link>
+          <Link id="goback-btn" to="/categories">
+            Categories
+          </Link>
         </div>
 
         <div>
-          <input
-            type="text"
-            placeholder="Search for laws..."
-            id="search-bar"
-          />
+          <input type="text" placeholder="Search for laws..." id="search-bar" />
         </div>
 
         <div id="traffic-content">
