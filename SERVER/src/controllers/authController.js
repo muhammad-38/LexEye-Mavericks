@@ -3,13 +3,10 @@ import * as AuthService from "../services/authService.js";
 import {asyncWrapper} from "../utils/asyncWrapper.js";
 import { loginSchema } from "../validations/authValidation.js";
 import { signinUser, verifyUserOtp } from "../services/authService.js";
-import { resendUserOtp } from "../services/authService.js";
-import {
-  updatePassword,
-} from "../services/authService.js";
+import { resendUserOtp, updatePassword } from "../services/authService.js";
 
 
-export const register = asyncWrapper(async (req, res) => {
+export const registerUser = asyncWrapper(async (req, res) => {
  
     const { error } = registerSchema.validate(req.body);
     if (error) return res.status(400).json({ error: error.details[0].message });
@@ -20,7 +17,7 @@ export const register = asyncWrapper(async (req, res) => {
 });
 
 
-export const signin = asyncWrapper( async (req, res) => {
+export const loginUser = asyncWrapper( async (req, res) => {
     const { error } = loginSchema.validate(req.body);
     if (error) return res.status(400).json({ error: error.details[0].message });
 
