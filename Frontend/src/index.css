@@ -128,6 +128,7 @@ header .btn {
   margin-top: 24rem;
   text-transform: none;
 }
+
 #section1 p {
   margin-top: 1.5rem;
   font-size: 1.2rem;
@@ -148,6 +149,7 @@ header .btn {
 #section2 .content-wrapper {
   max-width: 500px;
 }
+
 .feature-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -208,10 +210,12 @@ header .btn {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-50%);
   }
 }
+
 .middle-section-para h1 {
   font-size: 3.5vw;
   margin-top: 5vw;
@@ -307,6 +311,7 @@ header .btn {
   cursor: pointer;
   font-size: 1.5rem;
 }
+
 #section5 button a {
   color: var(--primary-color);
 }
@@ -344,6 +349,7 @@ header .btn {
   padding: 10px;
   transition: opacity 0.3s ease-in-out;
 }
+
 .product:hover img {
   filter: brightness(50%);
   transform: scale(1.05);
@@ -391,6 +397,7 @@ footer .social {
   display: flex;
   align-items: center;
 }
+
 footer .social a img {
   width: 8vw;
   height: 8vh;
@@ -404,14 +411,17 @@ footer .social a img {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-color: var(--bg-color);
 }
+
 #container header nav {
-  background: transparent; /* light transparent background */
+  background: transparent;
+  /* light transparent background */
 }
+
 #container h4 {
   color: var(--primary-color);
 }
+
 #login-h1 {
   position: absolute;
   top: 20%;
@@ -512,15 +522,15 @@ footer .social a img {
 
 #login-h15 {
   position: absolute;
-  top: 50%;
-  left: 70%;
+  top: 90%;
+  left: 50%;
   padding: 1.2rem 2.4rem;
 }
 
 #login-h16 {
   position: absolute;
   top: 85%;
-  left: 80%;
+  left: 90%;
   padding: 1.2rem 2.4rem;
 }
 
@@ -547,10 +557,11 @@ footer .social a img {
 
 #login-h20 {
   position: absolute;
-  top: 85%;
-  left: 5%;
+  top: 95%;
+  left: 10%;
   padding: 1.2rem 2.4rem;
 }
+
 .login-div {
   width: 100%;
   max-width: 450px;
@@ -564,20 +575,25 @@ footer .social a img {
   left: 50%;
   transform: translate(-50%, -50%);
   /* frosted glass / mirror effect */
-  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  background: rgba(255, 255, 255, 0.1);
+  /* semi-transparent */
   backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px); /* for Safari */
-  border-radius: 1rem; /* optional, softer edges */
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* optional depth */
+  -webkit-backdrop-filter: blur(15px);
+  /* for Safari */
+  border-radius: 1rem;
+  /* optional, softer edges */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  /* optional depth */
   z-index: 10;
 }
 
 i {
   color: var(--primary-color);
 }
+
 .login-div h1 {
   font-family: var(--heading-font);
-  font-size: 3rem;
+  font-size: 3.0rem;
 }
 
 .login-div .underline {
@@ -588,6 +604,7 @@ i {
   border-radius: 5px;
   transition: transform 0.5s ease;
 }
+
 .input-field {
   margin: 15px 0;
   border-radius: 10px;
@@ -597,6 +614,7 @@ i {
   transition: max-height 0.5s ease;
   overflow: hidden;
 }
+
 .input-field input {
   width: 100%;
   background: transparent;
@@ -605,6 +623,7 @@ i {
   padding: 18px 15px;
   color: var(--black);
 }
+
 .input-field i {
   padding-left: 15px;
 }
@@ -625,6 +644,7 @@ form p a {
   justify-content: space-between;
   margin-top: 20px;
 }
+
 .btn-field button {
   flex-basis: 48%;
   padding: 10px 0;
@@ -648,6 +668,7 @@ button.disable {
   color: var(--black);
   border: 1px solid var(--black);
 }
+
 /* traffic heading */
 #traffic {
   /* height: 100vh; */
@@ -655,6 +676,7 @@ button.disable {
   padding-left: 5vw;
   padding-right: 5vw;
 }
+
 #search-bar {
   width: 100%;
   max-width: 500px;
@@ -671,6 +693,7 @@ button.disable {
   background-color: transparent;
   color: var(--primary-color);
 }
+
 #traffic-heading {
   display: flex;
   justify-content: space-between;
@@ -678,6 +701,7 @@ button.disable {
   line-height: 0.95;
   margin-top: 2rem;
 }
+
 #goback-btn {
   color: var(--primary-color);
   border: 2px solid var(--primary-color);
@@ -686,16 +710,19 @@ button.disable {
   font-size: 1.2rem;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
 .logo {
   max-width: 132px;
   color: var(--primary-color);
 }
+
 #traffic-heading h1 {
   font-family: var(--heading-font);
   font-size: 5rem;
   color: var(--primary-color);
   text-transform: uppercase;
 }
+
 #traffic-content {
   display: flex;
   justify-content: center;
@@ -705,38 +732,45 @@ button.disable {
   margin-top: 3rem;
   padding-bottom: 5rem;
 }
+
 .content-box {
   border: var(--primary-color) 2px solid;
   border-radius: 20px;
   width: 300px;
   padding: 25px;
-  transition: all 5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
+
 .content-box:hover {
   transform: scale(1.05);
 }
+
 .content-box span {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 .content-box span i {
   font-size: 1.5rem;
   color: var(--primary-color);
 }
+
 .content-box h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
+
 .content-box p {
   font-size: 1.2rem;
   color: var(--black);
   line-height: 1.4;
   margin-bottom: 10px;
 }
+
 .content-box button {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -748,7 +782,8 @@ button.disable {
 
   opacity: 0;
   transform: translateY(10px);
-  pointer-events: none; /* so it's unclickable when hidden */
+  pointer-events: none;
+  /* so it's unclickable when hidden */
   transition: all 0.5s ease-in-out;
 }
 
@@ -794,8 +829,216 @@ button.disable {
   padding: 10px;
   transition: opacity 0.3s ease-in-out;
 }
+
 .categories:hover img {
   filter: brightness(30%);
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+
+/* media query */
+@media (min-width: 0px) and (max-width: 890px) {
+
+  /* Categories */
+  #traffic-heading {
+    justify-content: center;
+  }
+
+  #traffic-heading a {
+    display: none;
+  }
+
+  .categories-name {
+    top: 70px;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 690px) {
+
+  /* Categories */
+  .categories img {
+    width: 63vw;
+    height: 50vh;
+    max-width: 310vw;
+  }
+
+  .categories-name {
+    left: 40px;
+    top: 130px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
+
+  /* Categories */
+  #traffic-heading h1 {
+    font-size: 4rem;
+  }
+
+  #search-bar {
+    max-width: 400px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 460px) {
+
+  /* Categories */
+  #traffic-heading h1 {
+    font-size: 3.5rem;
+  }
+
+  #traffic-content {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  #search-bar {
+    max-width: 300px;
+    font-size: 1rem;
+  }
+
+  .categories img {
+    width: 63vw;
+    height: 40vh;
+    max-width: 310vw;
+  }
+
+  .categories-name {
+    top: 90px;
+    font-size: 1.8rem;
+  }
+
+  /* Laws */
+  .content-box {
+    width: 250px;
+    padding: 20px;
+  }
+
+  .content-box h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .content-box p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .content-box button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 380px) {
+
+  /* Categories */
+  #traffic-heading h1 {
+    font-size: 3rem;
+  }
+
+  #search-bar {
+    max-width: 250px;
+    font-size: 0.75rem;
+    margin-top: 1.5rem;
+    height: 8vh;
+  }
+
+  #traffic-content {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .categories img {
+    width: 60vw;
+    height: 30vh;
+    max-width: 310vw;
+  }
+
+  .categories-name {
+    top: 70px;
+    left: 20px;
+    font-size: 1.5rem;
+    width: 150px;
+  }
+
+  /* Laws */
+  .content-box {
+    width: 220px;
+    padding: 15px;
+  }
+
+  .content-box h1 {
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+  }
+
+  .content-box p {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+  }
+
+  .content-box button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 330px) {
+
+  /* Categories */
+  #traffic-heading {
+    margin-top: 2rem;
+  }
+
+  #traffic-heading h1 {
+    font-size: 2.5rem;
+  }
+
+  #traffic-content {
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  #search-bar {
+    max-width: 220px;
+    margin-top: 1.5rem;
+    height: 7vh;
+    font-size: 0.7rem;
+  }
+
+  .categories img {
+    margin-bottom: 0;
+    height: 25vh;
+  }
+
+  .categories-name {
+    top: 60px;
+    font-size: 1.2rem;
+    width: 100px;
+  }
+
+  /* Laws */
+  .content-box {
+    width: 200px;
+    padding: 12px;
+  }
+
+  .content-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+
+  .content-box p {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+
+  .content-box button {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
 }
