@@ -673,8 +673,11 @@ button.disable {
 #traffic {
   /* height: 100vh; */
   /* width: 100%; */
+  position: relative;
+  z-index: 0;
   padding-left: 5vw;
   padding-right: 5vw;
+  margin-bottom: 2rem;
 }
 
 #search-bar {
@@ -731,6 +734,71 @@ button.disable {
   gap: 3vw;
   margin-top: 3rem;
   padding-bottom: 5rem;
+}
+
+#read-more {
+  height: 100%;
+  width: 91%;
+  /* background: red; */
+  position: absolute;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+  /* light transparent background */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 3rem;
+  padding: 2rem;
+}
+
+#read-more button {
+  position: absolute;
+  top: 4%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  z-index: 2;
+}
+
+#close-line {
+  position: absolute;
+  top: 11%;
+  left: 4.5%;
+  height: 4px;
+  width: 90%;
+  background-color: var(--primary-color);
+  animation: closeLineAnim 2s infinite;
+}
+
+@keyframes closeLineAnim {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#read-content {
+  margin-top: 4rem;
+  color: white;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .content-box {
@@ -853,7 +921,16 @@ button.disable {
     top: 70px;
     opacity: 1;
   }
+
+  /*  Laws - read-more */
+  #read-more{
+    width: 92%;
+  }
+  #close-line {
+    top: 10%;
+  }
 }
+
 
 @media (min-width: 0px) and (max-width: 690px) {
 
@@ -868,6 +945,19 @@ button.disable {
     left: 40px;
     top: 130px;
   }
+
+  /*  Laws - read-more */
+  #close-line {
+    top: 5%;
+  }
+
+  #read-more button {
+    top: 2%;
+  }
+
+  #read-more {
+    border-radius: 3rem;
+  }
 }
 
 @media (min-width: 0px) and (max-width: 550px) {
@@ -879,6 +969,20 @@ button.disable {
 
   #search-bar {
     max-width: 400px;
+  }
+
+  #close-line {
+    top: 4%;
+  }
+
+  #read-more button {
+    top: 1%;
+  }
+
+  #read-content {
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
   }
 
 }
@@ -930,6 +1034,20 @@ button.disable {
   .content-box button {
     font-size: 0.9rem;
     padding: 8px 16px;
+  }
+
+  #close-line {
+    top: 4%;
+  }
+
+  #read-more button {
+    top: 1%;
+  }
+
+  #read-content {
+    margin-top: 3rem;
+    padding: 0.1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -984,6 +1102,14 @@ button.disable {
   .content-box button {
     font-size: 0.8rem;
     padding: 6px 12px;
+  }
+
+  #close-line {
+    top: 5%;
+  }
+
+  #read-more button {
+    top: 1%;
   }
 }
 
@@ -1040,5 +1166,18 @@ button.disable {
   .content-box button {
     font-size: 0.7rem;
     padding: 5px 10px;
+  }
+
+  #read-more {
+    border-radius: 2rem;
+  }
+
+  #close-line {
+    top: 5%;
+  }
+
+  #read-more button {
+    top: 1%;
+    right: 3%;
   }
 }
