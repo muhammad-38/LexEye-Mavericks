@@ -45,12 +45,12 @@ const Catagories = () => {
           </div>
 
           <div className="categories">
-            <a href="./traffic.html">
+            <Link to="/downloads">
               <img src={Crime} alt="Crime" />
               <div className="categories-name">
                 <h3>CRIMINAL LAWS</h3>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div className="categories">
