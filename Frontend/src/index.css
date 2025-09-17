@@ -461,6 +461,7 @@ footer .social a img {
   justify-content: center;
   align-items: center;
   position: relative;
+  background: linear-gradient(180deg, #08292e 0%, #000000 100%);
 }
 
 #container header nav {
