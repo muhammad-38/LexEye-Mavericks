@@ -723,11 +723,14 @@ button.disable {
 #traffic {
   /* height: 100vh; */
   /* width: 100%; */
-  position: relative;
+  position: absolute;
   z-index: 0;
+  top: 0;
+  left: 0;
   padding-left: 5vw;
   padding-right: 5vw;
   margin-bottom: 2rem;
+  background: linear-gradient(180deg, #08292e 0%, #000000 100%);
 }
 
 #search-bar {
@@ -850,7 +853,9 @@ button.disable {
   align-items: center;
   padding: 2rem;
 }
-
+#read-content p {
+  font-size: clamp(14px, 1.5vw, 20px);
+}
 .content-box {
   border: var(--primary-color) 2px solid;
   border-radius: 20px;
@@ -971,14 +976,13 @@ button.disable {
   }
 
   /*  Laws - read-more */
-  #read-more{
+  #read-more {
     width: 92%;
   }
   #close-line {
     top: 10%;
   }
 }
-
 
 @media (min-width: 0px) and (max-width: 690px) {
   /* Categories */
@@ -1235,6 +1239,9 @@ button.disable {
   }
 }
 @media (min-width: 0px) and (max-width: 700px) {
+  #headphone {
+    top: 1.5%;
+  }
   header .logo {
     max-width: 120px;
   }
@@ -1245,9 +1252,29 @@ button.disable {
     display: block;
     cursor: pointer;
   }
+  .feature-box {
+    width: 22vw;
+  }
+  .move{
+    padding-top: 18vh;
+  }
+  .product img {
+    height: 220px;
+    max-width: 300px;
+  }
   #section5 .product-section {
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 3rem;
+  }
 }
+@media (min-width: 0px) and (max-width: 600px) {
+  .feature-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 6vw;
+  }
+  .feature-box{
+    width: 30vw;
+  }
 }
